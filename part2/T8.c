@@ -18,7 +18,7 @@ void opreate(void(*method)(int,int), int num1, int num2) {
 }
 
 // 7.函数指针。（回调)  Java接口的回调
-int mainT8() {  // 【第一种写法】
+int mainP28() {  // 【第一种写法】
 
     opreate(add,  10, 10);
     opreate(mins,  100, 10);

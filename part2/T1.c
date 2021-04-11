@@ -9,7 +9,7 @@ void update(int * i) { // 1000H内存地址
 }
 
 // 上节课同学问了我一个问题（为什么 main函数 和 update 函数 i 的内存不地址一样？）
-int main() {
+int mainP21() {
     int i = 100; // 1000H的内存地址
     update(&i);
 
